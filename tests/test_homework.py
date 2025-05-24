@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore")
 
 def test_01():
 
-    # Test if the homework script runs without errors
+    # Test if the homework script runs without error
     try:
         for entry_point in ["elasticnet", "knn"]:
             subprocess.run(
